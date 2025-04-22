@@ -1,0 +1,43 @@
+body{
+  font-family: cursive;
+   background-color: rgb(78, 83, 128);
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,7,103,1) 30%, rgba(101,9,121,1) 38%, rgba(145,0,255,1) 97%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+ header h1{
+    margin-bottom: 20px;
+    color:rgb(18, 20, 6);
+ }
+ label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+ }
+ input[type="date"]{
+    border: none;
+    color: rgb(15, 15, 15);
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ button:hover {
+    background-color: #0056b3;
+ }
+ #currentAge {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+ }
